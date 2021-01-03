@@ -43,6 +43,7 @@ a{
     list-style: none;
     color: white;
     display: flex;
+    padding: 0;
 }
 .navbar__icons li{
     padding: 8px 12px;
@@ -62,5 +63,14 @@ a{
         width: 100%;
     }
 
-    
+    .navbar__menu li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar__icons{
+        justify-content: center;
+        width: 100%;
+        
+    }
 }
