@@ -19,3 +19,7 @@ a{
     font-size: 24px;
     color: white;
 }
+
+.navbar__logo i{
+    color: violet;
+}
