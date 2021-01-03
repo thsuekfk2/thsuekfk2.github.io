@@ -1,5 +1,5 @@
 .body{
-    margin: 0;
+    margin:0;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -48,6 +48,13 @@ a{
 .navbar__icons li{
     padding: 8px 12px;
 }
+.toggle{
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: red;
+    display: none;
+}
 
 @media screen and (max-width:768px){
 
@@ -58,6 +65,7 @@ a{
     }
 
     .navbar__menu{
+        display: none;
         flex-direction: column;
         align-items: center;
         width: 100%;
@@ -69,8 +77,13 @@ a{
     }
 
     .navbar__icons{
+        display: none;
         justify-content: center;
         width: 100%;
         
+    }
+
+    .toggle{
+        display: block;
     }
 }
