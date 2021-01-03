@@ -1,6 +1,7 @@
-.body{
-    margin:0;
+body{
     font-family: 'Roboto Mono', monospace;
+    margin: 0;
+
 }
 
 a{
@@ -13,6 +14,7 @@ a{
     align-items: center;
     background-color: cornflowerblue;
     padding: 8px 12px;
+ 
 
 }
 
