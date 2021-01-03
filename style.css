@@ -23,3 +23,14 @@ a{
 .navbar__logo i{
     color: violet;
 }
+
+.navbar__menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.navbar__menu li{
+    padding: 8px 12px;
+}
