@@ -34,4 +34,12 @@ a{
 .navbar__menu li{
     padding: 8px 12px;
 }
+.navbar__icons{
+    list-style: none;
+    color: white;
+    display: flex;
+}
+.navbar__icons li{
+    padding: 8px 12px;
+}
 
