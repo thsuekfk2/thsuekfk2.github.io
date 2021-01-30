@@ -5,9 +5,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Coding"
-    layout: Coding
-    permalink: /Coding/
-    author_profile: true
+    url : /categories/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
