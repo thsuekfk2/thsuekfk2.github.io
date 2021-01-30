@@ -4,6 +4,10 @@ main:
     url: https:/thsuekfk2.github.io
   - title: "About"
     url: /about/
+  - title: "Posts by Category"
+    layout: categories
+    permalink: /categories/
+    author_profile: true
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
