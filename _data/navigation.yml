@@ -4,7 +4,7 @@ main:
     url: https:/thsuekfk2.github.io
   - title: "About"
     url: /about/
-  - title: "Posts by Category"
+  - title: "Coding"
     layout: categories
     permalink: /categories/
     author_profile: true
