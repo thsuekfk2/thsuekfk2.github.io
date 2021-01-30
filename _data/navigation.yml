@@ -3,7 +3,7 @@ main:
   - title: "블로그 방문하기"
     url: https://thsuekfk2.github.io
    - title: "About"
-     url: /
+     url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
