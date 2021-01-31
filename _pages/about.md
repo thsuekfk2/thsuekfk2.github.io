@@ -4,7 +4,7 @@ permalink: /about/
 layout: single
 ---
 
-## HI 
+## HI HERE IS BIN'S WEB SITE
 
-
-블로그 만드는중
+Welcome to my website.
+Let's study together.
