@@ -19,7 +19,8 @@ last_modified_at: 2021-02-01
 
 cd로 이동 시키고 code . 하면 cmd로 visual studio code 가 실행된다.
 
-![](C:\Users\User\Desktop\blog\code1.JPG)
+
+![code1](https://user-images.githubusercontent.com/76821963/106395372-50707380-6445-11eb-848d-e04c4d6d72de.JPG)
 
 
 
