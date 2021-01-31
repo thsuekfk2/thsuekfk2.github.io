@@ -1,3 +1,14 @@
+---
+title:  "vue youtube plug-in"
+excerpt: "vue youtube 전용 plug-in 사용하기"
+
+categories:
+  - Vue
+tags:
+  - Vue
+last_modified_at: 2021-01-31
+---
+
 # vue youtube 전용 plug-in 사용하기
 
 
