@@ -1,3 +1,14 @@
+---
+title:  "vue youtube plug-in"
+excerpt: "vue cli install & VSC open"
+
+categories:
+  - Vue
+tags:
+  - Vue
+last_modified_at: 2021-02-01
+---
+
 ## vue cli 설치
 
 
