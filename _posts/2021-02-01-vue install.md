@@ -35,13 +35,17 @@ npm install -g @vue/cli
 
 
 
+
+
+
+
 Vue 프로젝트를 생성
 
 ```
 vue create example
 ```
 
-![image-20210201034450546](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20210201034450546.png)
+
 
 
 
@@ -53,11 +57,17 @@ cd example
 
 
 
+
+
 서버를 실행
 
 ```
 npm run serve
 ```
+
+
+
+
 
 
 
