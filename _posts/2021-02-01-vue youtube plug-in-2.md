@@ -1,3 +1,14 @@
+---
+title:  "vue youtube plug-in-2"
+excerpt: "vue youtube 전용 plug-in 사용하기-2"
+
+categories:
+  - Vue
+tags:
+  - Vue
+last_modified_at: 2021-02-01
+---
+
 # vue youtube 전용 plug-in 사용하기 - 2
 
 vue plug-in을 이용해서 youtube를 재생 시킬때, 
