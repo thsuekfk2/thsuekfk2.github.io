@@ -1,5 +1,5 @@
 ---
-title:  "vue install"
+title:  "vue cli install & VSC open"
 excerpt: "vue cli install & VSC open"
 
 categories:
