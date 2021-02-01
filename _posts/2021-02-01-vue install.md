@@ -1,5 +1,5 @@
 ---
-title:  "vue youtube plug-in"
+title:  "vue install"
 excerpt: "vue cli install & VSC open"
 
 categories:
