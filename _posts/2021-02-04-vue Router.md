@@ -31,7 +31,7 @@ Routing이란 웹 페이지 간의 이동 방법을 말하고 SPA(Single Page Ap
 <router-link to"URL값">
 ```
 
-페이지 이동 태그. 화면에서 이렇게 표시되며 클릭하면 to에 지정한 URL로 이동합니다.
+페이지 이동 태그. 화면에서 < a > 표시되며 클릭하면 to에 지정한 URL로 이동합니다.
 
 
 
