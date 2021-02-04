@@ -31,7 +31,7 @@ Routing이란 웹 페이지 간의 이동 방법을 말하고 SPA(Single Page Ap
 <router-link to"URL값">
 ```
 
-페이지 이동 태그. 화면에서 < a > 로 표시되며 클릭하면 to에 지정한 URL로 이동합니다.
+페이지 이동 태그. 화면에서 이렇게 표시되며 클릭하면 to에 지정한 URL로 이동합니다.
 
 
 
@@ -53,12 +53,18 @@ Routing이란 웹 페이지 간의 이동 방법을 말하고 SPA(Single Page Ap
 this.$router.push('/orderexec?status='+value)
 ```
 
+- router.push('/siteList') // 이동 위치를 입력
+- router.push({ name: 'SiteList' }) // 해당하는 라우터 이름으로 이동
+- router.push({ path: '/siteList' }) // 해당하는 pathname을 입력하여 이동
+
+
+
 
 
 **전달 받은 컴포넌트에서 파라미터로 읽는 법 **
 
 ```
-this.$router.query.{status}
+this.$route.query.{status}
 ```
 
 
@@ -78,10 +84,35 @@ this.$router.push({name:"NAME",params : {status:value}})
 **전달 받은 컴포넌트에서 파라미터로 읽는 법 **
 
 ```
-this.$router.params.{status}
+this.$route.params.{status}
 ```
 
 주의 : reload시 사라짐
 
+
+
+
+
+router를 이동하는방법은 몇 가지 메소드가 존재
+
+1. router.push()  //  현재 라우트를 변경
+2. router.replace()  //  history 객체에 남기지 않고 라우트를 변경
+3. router.go()  //  앞 또는 뒤 위치로 이동할 수 있음
+
+
+
+
+
+**`router.go()  example`**
+
+** **
+
+```
+router.go(3)  //  3 단계 앞으로 이동
+
+router.go(1)  // 1 단계 앞으로 이동
+
+router.go(-1)  // 이전 페이지, 1 단계 전으로 이동
+```
 
 
