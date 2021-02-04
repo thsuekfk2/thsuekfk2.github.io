@@ -1,6 +1,6 @@
 ---
-title:  "vue youtube plug-in-2"
-excerpt: "vue youtube 전용 plug-in 사용하기-2"
+title:  "vue Router"
+excerpt: "vue Router"
 
 categories:
   - Vue
