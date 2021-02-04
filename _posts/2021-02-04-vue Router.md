@@ -46,7 +46,7 @@ Routing이란 웹 페이지 간의 이동 방법을 말하고 SPA(Single Page Ap
 
 
 
-**Path를 통한 값 전달 **
+**Path를 통한 값 전달**
 
 ```
 this.$router.push('/orderexec?status='+value)
@@ -60,7 +60,7 @@ this.$router.push('/orderexec?status='+value)
 
 
 
-**전달 받은 컴포넌트에서 파라미터로 읽는 법 **
+**전달 받은 컴포넌트에서 파라미터로 읽는 법**
 
 ```
 this.$route.query.{status}
@@ -72,7 +72,7 @@ this.$route.query.{status}
 
 
 
-**Params를 이용한 전달 방법 **
+**Params를 이용한 전달 방법**
 
 ```
 this.$router.push({name:"NAME",params : {status:value}})
@@ -80,7 +80,7 @@ this.$router.push({name:"NAME",params : {status:value}})
 
 
 
-**전달 받은 컴포넌트에서 파라미터로 읽는 법 **
+**전달 받은 컴포넌트에서 파라미터로 읽는 법**
 
 ```
 this.$route.params.{status}
