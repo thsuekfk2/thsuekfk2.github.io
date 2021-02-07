@@ -105,6 +105,10 @@ this.$router.push({name: 'Play' ,query : { v_id : v_id } }  ); // 전달할 때
 
 
 
+
+
+
+
 router를 이동하는방법은 몇 가지 메소드가 존재
 
 1. router.push()  //  현재 라우트를 변경
