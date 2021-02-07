@@ -19,11 +19,8 @@ last_modified_at: 2021-02-07
 
 
 ```
-git -c diff.mnemonicprefix=false -c core.quotepath=false --no-optional-locks push -v --tags origin master:master Pushing to https://github.com/내아이디/.gitrouter.go(3)  //  3 단계 앞으로 이동
+git -c diff.mnemonicprefix=false -c core.quotepath=false --no-optional-locks push -v --tags origin master:master Pushing to https://github.com/내아이디/.git
 
-router.go(1)  // 1 단계 앞으로 이동
-
-router.go(-1)  // 이전 페이지, 1 단계 전으로 이동
 ```
 
 
