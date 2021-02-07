@@ -1,3 +1,14 @@
+---
+title:  "vue Router"
+excerpt: "vue Router"
+
+categories:
+  - Vue
+tags:
+  - Vue
+last_modified_at: 2021-02-04
+---
+
 # Router?
 
 Router 를 알기전에 Routing을 알아야한다.
