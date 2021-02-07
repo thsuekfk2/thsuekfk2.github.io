@@ -102,7 +102,7 @@ this.$route.params.{status}
 ```
 this.$router.push({name: 'Play' ,query : { v_id : v_id } }  ); // 전달할 때
 
-{{this.$route.query.v_id}}; //받을 때
+{ { this.$route.query.v_id } }; //받을 때
 ```
 
 
