@@ -91,6 +91,19 @@ this.$route.params.{status}
 
 
 
+**`example`**
+
+** **
+
+```
+this.$router.push({name: 'Play' ,query : { v_id : v_id } }  ); // 전달할 때
+
+{{this.$route.query.v_id}}; //받을 때
+
+```
+
+
+
 
 router를 이동하는방법은 몇 가지 메소드가 존재
 
