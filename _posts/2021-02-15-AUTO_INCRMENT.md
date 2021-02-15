@@ -39,22 +39,17 @@ CREATE TABLE 'test'
 데이터가 삽입될 때 1부터 시작하여 1씩 증가한 값을 알아서 넣어준다.
 
 데이터를 추가해보면 
-
-![](C:\Users\User\Desktop\오픈캡쳐모음\이미지 1.png)
+![이미지 1](https://user-images.githubusercontent.com/76821963/107962385-3c527780-6fea-11eb-8118-51252e883426.png)
 
 
 
 값을 넣어준다.
-
-
-
-![이미지 2](C:\Users\User\Desktop\오픈캡쳐모음\이미지 2.png)
+![이미지 2](https://user-images.githubusercontent.com/76821963/107962466-555b2880-6fea-11eb-91d0-37b5f709cc6c.png)
 
 
 
 
 
 결과는 다음과 같이 나온다.
-
-![이미지 3](C:\Users\User\Desktop\오픈캡쳐모음\이미지 3.png)
+![이미지 3](https://user-images.githubusercontent.com/76821963/107962490-5e4bfa00-6fea-11eb-9551-f1962cf8cad8.png)
 
