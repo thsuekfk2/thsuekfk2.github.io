@@ -1,3 +1,15 @@
+---
+title:  "[SQL] AUTO_INCRMENT"
+excerpt: "auto_increment"
+
+categories:
+  - SQL
+tags:
+  - SQL
+  - Database
+last_modified_at: 2021-02-15
+---
+
 데이터베이스에서 데이터를 식별할 수 있는 **key**가 필요하다.
 
 Primary Key를 지정하더라고 필수로 입력해야 하고 중복이 되면 안되기 때문에
