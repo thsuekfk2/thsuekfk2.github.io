@@ -20,7 +20,7 @@ Primary Key를 지정하더라고 필수로 입력해야 하고 중복이 되면
 
 **AUTO_INCRMENT**
 
-```
+```sql
 CREATE TABLE 'test'(
 'num' int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
 'name' varchar(10) NOR NULL
@@ -29,7 +29,7 @@ CREATE TABLE 'test'(
 
 또는
 
-```
+```sql
 CREATE TABLE 'test'
 ('num' int(10) auto_increment ,
    PRIMARY KEY (c_idx)  
