@@ -14,7 +14,7 @@ last_modified_at: 2021-02-15
 
 
 
-```
+```c
 mysql> show databases; 
 
 생성된 이름을 보여준다
