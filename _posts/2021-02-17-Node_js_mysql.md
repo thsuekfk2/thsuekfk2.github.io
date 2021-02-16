@@ -67,3 +67,17 @@ connection.end();
 npm install -s mysql
 ```
 
+
+
+
+## 터미널에서 실행 예제
+
+
+![이미지 4](https://user-images.githubusercontent.com/76821963/108094938-ab030400-70c2-11eb-86aa-3e2940acb7d2.png)
+
+
+결과
+
+
+![이미지 5](https://user-images.githubusercontent.com/76821963/108095042-c968ff80-70c2-11eb-9ebb-6bc046cbf6a0.png)
+
