@@ -1,6 +1,20 @@
+---
+title:  "[Node.js] MySQL Usage "
+excerpt: "Node.js MySQL 모듈 설치"
+
+categories:
+  - SQL
+  - Node.js
+tags:
+  - SQL
+  - Database
+  - Node.js
+last_modified_at: 2021-02-15
+---
+
 ## Node.js MySQL 모듈 설치
 
-```
+```javascript
 npm install -s mysql
 ```
 
@@ -8,7 +22,7 @@ npm install -s mysql
 
 ## MySQL 모듈 사용
 
-```
+```javascript
 var mysql      = require('mysql');
 // 비밀번호는 별도의 파일로 분리해서 버전관리에 포함시키지 않아야 합니다.
 
@@ -28,7 +42,7 @@ connection.connect();
 
 
 
-```
+```javascript
 connection.query('SELECT * FROM topic', function (error, results, fields) {
     if (error) {
         console.log(error);
@@ -49,7 +63,7 @@ connection.end();
 
 ## 터미널에서 node webserve.js실행
 
-```
+```javascript
 npm install -s mysql
 ```
 
