@@ -64,7 +64,7 @@ connection.end();
 ## 터미널에서 node webserve.js실행
 
 ```javascript
-npm install -s mysql
+node test.js
 ```
 
 
