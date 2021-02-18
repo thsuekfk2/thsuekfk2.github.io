@@ -98,7 +98,7 @@ console.log(req.body)형태로 사용할 수 있다.
 
 만약 클라이언트에서 보낸 응답을 가지고 어떤 html형태로 클라이언트에 응답을 주려면
 
-```
+```javascript
 app.post('/email_post',function(req,res){
 
     res.send("<h1> welcome! " + req.body.email + "</h1>" )
