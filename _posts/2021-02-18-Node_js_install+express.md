@@ -1,3 +1,15 @@
+---
+title:  "[Node.js] Node.js install+express "
+excerpt: "nodeJS + Express 웹서버 설정"
+
+categories:
+  - express
+  - Node.js
+tags:
+  - express
+  - Node.js
+last_modified_at: 2021-02-18
+---
 ## NPM install
 
 ```
@@ -38,7 +50,7 @@ nodemon은 node 를 다시 실행하기 귀찮으니까 자동으로 파일의 �
 
 ## Express 기반 웹 서버 구동
 
-```
+```javascript
 var express = require('express') 
 var app = express()
 app.listen(3000,function(){
@@ -66,7 +78,7 @@ express 함수를  app이라는 객체에 함수 정보를 담아놓는다.
 
 ## URL routing 처리
 
-```
+```javascript
 
 app.get('/',function(req,res){
     // res.send("<h1>hi friend</h1>")
@@ -83,7 +95,7 @@ res.send함수를 이용 브라우저에 띄울 수 있다.
 
 
 
-```
+```javascript
 app.get('/main',function(req,res){
     res.sendFile(__dirname+"/public/main.html")
 })
@@ -101,7 +113,7 @@ res.sendFile()함수를 써서 클라이언트에 보내준다.
 
 ## static directory 설정
 
-```
+```javascript
 app.use(express.static('public'))
 ```
 
