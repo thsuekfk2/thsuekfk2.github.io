@@ -10,7 +10,7 @@ last_modified_at: 2021-02-18
 ---
 ## POST 요청처리
 
-```
+```html
 <html lang="en">
 <head>
     <title>email form</title>
@@ -34,7 +34,7 @@ get은 url에 담겨져서 보내지만 post는 서버로 보낸다.
 
 
 
-```
+```javascript
 app.post('/email_post',function(req,res){
     res.send("post response")
 }) 
@@ -60,7 +60,7 @@ npm install body-parser --save
 
 그리고 body-parser 을 사용하려면 모듈을 등록해줘야한다. 
 
-```
+```javascript
 var bodyParser = require('body-parser')
 ```
 
@@ -68,7 +68,7 @@ var bodyParser = require('body-parser')
 
 또 express서버에 bodyParser 를 쓴다고 알려줘야한다.
 
-```
+```javascript
 app.use(bodyParser.json()) //클라이언트에서 json형태로 올수있고
 app.use(bodyParser.urlencoded({extended:true})) //post형태로 올 수 있다.
 ```
@@ -77,7 +77,7 @@ app.use(bodyParser.urlencoded({extended:true})) //post형태로 올 수 있다.
 
 
 
-```
+```javascript
 app.post('/email_post',function(req,res){
     console.log(req.body.email)
     res.send("post response")
