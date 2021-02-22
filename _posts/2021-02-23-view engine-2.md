@@ -1,3 +1,13 @@
+---
+title:  "[Node.js] view engine "
+excerpt: "express 템플릿 엔진 ejs"
+
+categories:
+  - Node.js
+tags:
+  - Node.js
+last_modified_at: 2021-02-23
+---
 ## express 템플릿 엔진 ejs
 
 ejs는 응답값을 주거나 데이터랑 html이 결합된 상태를 클라이언트에 보내줄 때 활용된다.
