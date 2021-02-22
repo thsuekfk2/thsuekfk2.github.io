@@ -1,5 +1,5 @@
 ---
-title:  "[Node.js] view engine "
+title:  "[Node.js] view engine-2 "
 excerpt: "express 템플릿 엔진 ejs"
 
 categories:
