@@ -24,7 +24,7 @@ npm install ejs --save
 
 
 
-```
+```javascript
 app.set('view engine','ejs')
 ```
 
@@ -38,7 +38,7 @@ view engine가 ejs야! 이말이다.
 
 email.ejs를 만들어 준다.
 
-```
+```html
 <html lang="en">
 <head>
     <title>email ejs template</title>
@@ -60,7 +60,7 @@ email.ejs를 만들어 준다.
 
 
 
-```
+```javascript
 app.post('/email_post',function(req,res){
     console.log(req.body.email)
     res.render('email.ejs',{'email':req.body.email})
