@@ -62,3 +62,23 @@ connection.query('select count(*) as cmk from studentTBL where user_id = "hani" 
 
 ![이미지 8](https://user-images.githubusercontent.com/76821963/108739335-e47eb800-7577-11eb-9b62-7350dff1adcf.png)
 
+
+
+
+```javascript
+var user_id = "hong";
+var user_pass = "hong";
+connection.query('SELECT count(*) as cmk FROM studentTBL WHERE user_id=? and user_pass=?',[user_id,user_pass], function (error, results, fields) {
+
+  if (error) {
+    console.log(error);
+  }
+  if(results[0].cmk==1)
+    console.log("회원 정보 일치");
+  else 
+    console.log("회원 정보 불일치");
+```
+
+
+![이미지 9](https://user-images.githubusercontent.com/76821963/108831975-3a9e3a80-760e-11eb-895d-5969d3d5f6e7.png)
+
