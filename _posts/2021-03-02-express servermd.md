@@ -1,3 +1,15 @@
+---
+title:  "[Node.js] Node.js Express (get)"
+excerpt: "Node.js Express로 서버 만들기(GET방식)"
+
+categories:
+  - Node
+  - Express
+tags:
+  - Node
+  - Express
+last_modified_at: 2021-03-02
+---
 ## Node.js Express로 서버 만들기(GET방식)
 
 express 모듈 사용
@@ -10,7 +22,7 @@ npm i express
 
 express 불러오고 서버 접속
 
-```
+```javascript
 const express = require("express"); //express 불러오기
 const server = express(); //서버 작성
 
@@ -43,7 +55,7 @@ PUT 업데이트의 개념이다.  ex)프로필 업데이트
 
 
 
-```
+```javascript
 server.get("/",(req,res)=>{ //작업 하고 싶은 url에 맞추어서 요청 응답한다.
 
     res.send("<h1>Hello from node.js</h1>")
