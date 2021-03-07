@@ -1,3 +1,15 @@
+---
+title:  "[Node.js] Express Middleware"
+excerpt: "Node.js Express Middleware"
+
+categories:
+  - Node
+  - Express
+tags:
+  - Node
+  - Express
+last_modified_at: 2021-03-02
+---
 ## Node.js  Express Middleware
 
 Middleware은 요청을 처리하기 전에  중간 역할을 하는 것이다.
@@ -8,7 +20,7 @@ Middleware은 요청을 처리하기 전에  중간 역할을 하는 것이다.
 
 
 
-```
+```javascript
 
 const express = require("express"); 
 const server = express(); //서버 작성
@@ -73,7 +85,7 @@ server.use 함수는 서버의 모든 요청을 지나게 된다.
 
 index.html
 
-```
+```javascript
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,7 +119,7 @@ index.css
 
 
 
-```
+```javascript
 const express = require("express"); 
 const server = express(); //서버 작성
 
