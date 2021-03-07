@@ -1,3 +1,13 @@
+---
+title:  "[Node.js] Handlebars "
+excerpt: "Nodejs Template (Handlebars)"
+
+categories:
+  - Node
+tags:
+  - Node
+last_modified_at: 2021-03-02
+---
 # Nodejs Template (Handlebars)
 
 app.js를 바꿀 때 마다 서버를 정지 시키고 다시 서버를 실행 시키고 했는데
@@ -42,7 +52,7 @@ express-handlebars 패키지를 설치해준다.
 
 
 
-```
+```javascript
 const hbs = require("express-handlebars");
 ```
 
@@ -52,7 +62,7 @@ const hbs = require("express-handlebars");
 
 
 
-```
+```javascript
 
 const express = require("express"); 
 const server = express(); //서버 작성
@@ -121,7 +131,7 @@ partials는 부분적인 html파일을 넣을때 사용한다.
 
 home.hbs
 
-```
+```javascript
 <h1>{{ message }}</h1>
 ```
 
@@ -129,7 +139,7 @@ home.hbs
 
 layout.hbs
 
-```
+```javascript
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -152,7 +162,7 @@ localhost:3000 화면에 layout.hbs 에 기본 레이아우싱 나오고
 
 home.hbs에 {{ message }}는 
 
-```
+```javascript
 server.get("/",(req,res)=>{
     res.render("home",{
     message : "Hello from node js"
