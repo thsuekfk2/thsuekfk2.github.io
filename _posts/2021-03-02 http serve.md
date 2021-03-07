@@ -1,8 +1,18 @@
+---
+title:  "[Node.js] Http Server "
+excerpt: "Node.js HTTP서버 만들기"
+
+categories:
+  - Node
+tags:
+  - Node
+last_modified_at: 2021-03-02
+---
 ## Node.js HTTP서버 만들기
 
 
 
-```
+```javascript
 const http = require("http"); //http모듈을 불러오기
 
 const serve = http.createServer((req,res)=>{ 
@@ -21,7 +31,7 @@ serve.listen(3000,()=>{
 
 
 
-```
+```javascript
 const http = require("http");
 
 const serve = http.createServer((req,res)=>{
