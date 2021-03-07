@@ -1,3 +1,15 @@
+---
+title:  "[Node.js] Express HTML transmission"
+excerpt: "Node.js  Express HTML 보내는 방법"
+
+categories:
+  - Node
+  - Express
+tags:
+  - Node
+  - Express
+last_modified_at: 2021-03-02
+---
 ## Node.js  Express HTML 보내는 방법
 
 express 를 이용해서 메소드를 이용해 파일을 보내는 방법을 알아본다. 
@@ -8,7 +20,7 @@ index.html 과 about.html 파일을 만들어 준다.
 
 
 
-```
+```javascript
 const express = require("express"); 
 const server = express(); //서버 작성
 
