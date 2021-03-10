@@ -1,3 +1,15 @@
+---
+title:  "[Node.js] View engine"
+excerpt: "Node.js View engine"
+
+categories:
+  - Node
+  - Express
+tags:
+  - Node
+  - Express
+last_modified_at: 2021-03-10
+---
 
 ## Node.js  View engine
 
