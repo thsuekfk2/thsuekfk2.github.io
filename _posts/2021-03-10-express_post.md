@@ -165,6 +165,5 @@ app.post('/email_post',function(req,res){
     res.send("<h1> welcome! " + req.body.email + "</h1>" )
 })
 
-
 ```
 
