@@ -138,7 +138,6 @@ app.post('/email_post',function(req,res){
 var express = require('express')
 var app = express()
 var bodyParser = require('body-parser')
-var cors = require('cors')
 
 
 app.listen(3000,function(){
@@ -149,8 +148,6 @@ app.listen(3000,function(){
 app.use(express.static('public'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
-app.set('view engine','ejs')
-app.use(cors())
 
 //url routing
 app.get('/',function(req,res){
@@ -165,14 +162,9 @@ app.get('/main',function(req,res){
 app.post('/email_post',function(req,res){
     console.log(req.body.email)
     // res.send("post response!")
-    //res.send("<h1> welcome! " + req.body.email + "</h1>" )
-    res.render('email.ejs',{'email':req.body.email})
+    res.send("<h1> welcome! " + req.body.email + "</h1>" )
 })
 
-app.post('/ajax_send_email',function(req,res){
-    console.log(req.body.email)
-    var responseData = {'result' : 'ok' , 'email' : req.body.email}
-    res.json(responseData)
-    })
+
 ```
 
