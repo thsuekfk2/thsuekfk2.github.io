@@ -1,3 +1,15 @@
+---
+title:  "[Node.js] View engine"
+excerpt: "Node.js View engine"
+
+categories:
+  - Node
+  - Express
+tags:
+  - Node
+  - Express
+last_modified_at: 2021-03-10
+---
 ## Node.js  View engine
 
 응답값을 줄때 데이터랑 html과 결합된 상태를 클라이언트에 보내줄때 ejs를 활용
@@ -15,7 +27,7 @@ npm install ejs --save
 
 ejs 를 사용하려면 모듈을 등록해줘야한다. 
 
-```
+```javascript
 app.set('view engine','ejs') 
 ```
 
@@ -25,7 +37,7 @@ app.set('view engine','ejs')
 
 email.ejs를 하나 만들어준다.
 
-```
+```html
 <html lang="en">
 <head>
     <title>email ejs template</title>
@@ -44,7 +56,7 @@ email.ejs를 하나 만들어준다.
 
 
 
-```
+```javascript
 app.post('/email_post',function(req,res){
     console.log(req.body.email)
     res.render('email.ejs',{'email':req.body.email})
@@ -67,7 +79,7 @@ email.ejs에 데이터가 섞여서 emial을 찾아 req.body.email로 치환해�
 
 
 
-```
+```javascript
 var express = require('express')
 var app = express()
 var bodyParser = require('body-parser')
@@ -109,7 +121,7 @@ app.post('/ajax_send_email',function(req,res){
     })
 ```
 
-```
+```html
 <!doctype html>
 <head>
     <meta charset="utf-8">
