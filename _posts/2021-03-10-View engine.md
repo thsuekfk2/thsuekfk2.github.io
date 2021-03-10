@@ -28,7 +28,7 @@ npm install ejs --save
 
 ejs 를 사용하려면 모듈을 등록해줘야한다. 
 
-```
+```javascript
 app.set('view engine','ejs') 
 ```
 
@@ -38,7 +38,7 @@ app.set('view engine','ejs')
 
 email.ejs를 하나 만들어준다.
 
-```
+```html
 <html lang="en">
 <head>
     <title>email ejs template</title>
@@ -57,7 +57,7 @@ email.ejs를 하나 만들어준다.
 
 
 
-```
+```javascript
 app.post('/email_post',function(req,res){
     console.log(req.body.email)
     res.render('email.ejs',{'email':req.body.email})
@@ -80,7 +80,7 @@ email.ejs에 데이터가 섞여서 emial을 찾아 req.body.email로 치환해�
 
 
 
-```
+```javascript
 var express = require('express')
 var app = express()
 var bodyParser = require('body-parser')
