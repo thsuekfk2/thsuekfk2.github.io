@@ -75,9 +75,7 @@ email.ejs에 데이터가 섞여서 emial을 찾아 req.body.email로 치환해�
 
 ------
 
-<전체코드>
-
-
+##전체코드
 
 ```javascript
 var express = require('express')
